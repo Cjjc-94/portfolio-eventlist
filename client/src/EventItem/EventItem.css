@@ -1,0 +1,32 @@
+.evnt{
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px grey;
+  width: 55vw;
+  min-width: 300px;
+  margin: 20px auto;
+  float: left;
+}
+
+.evnt_date_side {
+  background-color: #ff7b10;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  justify-content: left;
+  padding: 10px;
+}
+
+.evnt_content{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+}
+
+.content_date, .content_venue{
+  color: grey;
+}

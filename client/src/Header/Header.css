@@ -1,0 +1,7 @@
+.header{
+  padding: 10px;
+  box-shadow: 0 0 10px 1px black;
+  display: flex;
+  float: left;
+  width: 95vw;
+}

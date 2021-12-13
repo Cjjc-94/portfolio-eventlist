@@ -1,0 +1,29 @@
+.form{
+  width: 20vw;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  box-shadow: 0 0 5px 1px grey;
+  padding: 5px;
+  float: right;
+}
+
+.form_input {
+  height: 20px;
+  margin: 5px;
+}
+
+.form_submit_btn{
+  background-color: #ff7b10;
+  border-radius: 5px;
+  height: 50px;
+  margin:10px;
+  color: white;
+  border: none;
+}
+
+.form_title{
+  display: flex;
+  float: left;
+}
